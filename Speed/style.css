@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    opacity: 1;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1611760357505-922600d8ffa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3BlZWRvbWV0ZXJ8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+}
+.submit{
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    transition: 1.0s;
+}
+.submit:hover{
+    background-color: bisque;
+}
+#openBtn{
+    margin-top: 300px;
+    margin-left: 550px;
+    width: 300px;
+    height: 90px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1.0s;
+    font-family: "Playwrite NG Modern", cursive;
+}
+#openBtn:hover{
+    background-color: aqua;
+    color: black;
+}
+.licenseNumber{
+    font-family: "Playwrite NG Modern", cursive;
+}
+.speed{
+    font-family: "Playwrite NG Modern", cursive;
+}
+#licenseNumber{
+    height: 20px;
+    border-radius: 5px;
+    font-family: "Playwrite NG Modern", cursive;
+}
+#speed{
+    height: 20px;
+    border-radius: 5px;
+    font-family: "Playwrite NG Modern", cursive;
+}
+.content{
+    background-image: url('https://images.unsplash.com/photo-1506818144585-74b29c980d4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3BlZWQlMjB0aWNrZXR8ZW58MHx8MHx8fDA%3D');
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    border-radius: 10px;
+    color: rgb(19, 21, 21);
+    background-size: cover;
+}
+#speedForm{
+    margin-left: 130px;
+    font-size: 25px;
+}
+.content h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: "Playwrite ES Deco", cursive;
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+    cursor: pointer;
+}

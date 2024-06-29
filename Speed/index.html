@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="openBtn">Speed Detector</button>
+
+    <div id="form" class="modal">
+        <div class="content">
+            
+            <span class="close">&times;</span>
+            <h2>Speed Detector</h2>
+            <form id="speedForm">
+                <label class="licenseNumber">License Number:</label><br>
+                <input type="text" id="licenseNumber" name="licenseNumber" required><br><br>
+
+                <label class="speed">Speed (km/hr)</label><br>
+                <input type="text" name="speed" id="speed" required><br><br>
+
+                <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
