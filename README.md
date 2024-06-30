@@ -11,3 +11,5 @@ and a form will appear for you to enter the license number of the driver and the
 an alert will show telling you if the drivers license numberhas been suspended or its good to go.
 
 3. Net Salary Calculator
+when the page loads click on the net salary button, a page will show a form for you to key in your basic salary and benefits 
+and click on the calculate button and it will show results of your net salary
