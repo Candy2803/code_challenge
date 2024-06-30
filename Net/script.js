@@ -2,7 +2,7 @@ function calculateNetSalary(basicSalary, benefits) {
    
     const grossSalary = basicSalary + benefits;
 
-    // Calculate PAYE (Tax)
+    
     let payee;
     if (grossSalary <= 24000) {
         payee = grossSalary * 0.10;
@@ -16,10 +16,10 @@ function calculateNetSalary(basicSalary, benefits) {
         payee = 24000 * 0.10 + 8333 * 0.25 + 467667 * 0.30 + 300000 * 0.325 + (grossSalary - 800000) * 0.35;
     }
 
-    // Personal Relief
+    
     const personalRelief = 2400;
 
-    // Calculate NHIF Deductions
+    
     let nhifDeduction;
     if (grossSalary <= 5999) {
         nhifDeduction = 150;
@@ -57,15 +57,14 @@ function calculateNetSalary(basicSalary, benefits) {
         nhifDeduction = 1700;
     }
 
-    // Calculate NSSF Deductions
     const nssfTierI = Math.min(grossSalary, 7000) * 0.06;
     const nssfTierII = Math.max(Math.min(grossSalary, 36000) - 7000, 0) * 0.06;
     const nssfDeduction = nssfTierI + nssfTierII;
 
-    // Calculate Housing Levy
+    
     const housingLevy = grossSalary * 0.015;
 
-    // Calculate Net Salary
+    
     const netSalary = grossSalary - payee + personalRelief - nhifDeduction - nssfDeduction - housingLevy;
 
     return {

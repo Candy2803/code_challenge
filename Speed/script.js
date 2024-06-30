@@ -12,21 +12,17 @@ span.addEventListener('click', function() {
     modal.style.display = 'none';
 });
 
-
 window.addEventListener('click', function(event) {
     if (event.target == modal) {
         modal.style.display = 'none';
     }
 });
 
-
 document.getElementById('speedForm').addEventListener('submit', function(event) {
     event.preventDefault();
     
     let licenseNumber = document.getElementById('licenseNumber').value;
     let speed = Number(document.getElementById('speed').value);
-
-    
     let exceed = function max() {
         const speedExceed = 5;
         const recommendedSpeed = 70;
