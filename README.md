@@ -94,6 +94,6 @@ Below shows steps to follow
 2. Go to terminal and type the following: git clone git@github.com:Candy2803/code_challenge.git and press enter
 The terminal will clone the folder to your local machine.
 3. go to the folder and open with visual studio code
-* AND THERE YOU GO YOU HAVE THE CODE IN YOUR MACHINE!!!
+* AND THERE YOU GO YOU HAVE THE CODE IN YOUR MACHINE!!!*
 
 AUTHORED BY: Candy Wawuda Mzungu.
