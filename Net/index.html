@@ -9,18 +9,20 @@
 <body>
     <div class="container">
         <h1>Net Salary Calculator</h1>
+        
         <label for="basicSalary">Basic Salary:</label>
-        <input type="text" id="basicSalary" placeholder="Enter Basic Salary" required>
+        <input type="text" id="basicSalary" onfocus="this.value=''" placeholder="Enter Basic Salary" required>
         
         <label for="benefits">Benefits:</label>
-        <input type="text" id="benefits" placeholder="Enter Benefits" required>
+        <input type="text" id="benefits" onfocus="this.value=''" placeholder="Enter Benefits" required>
         
         <button onclick="calculate()">Calculate Net Salary</button>
-
+        <button onclick="clearFormData()">Clear data</button>
+       
 
         <div class="result" id="result">
         </div>
-    </div>
+        
 
     <script src="script.js"></script>
 </body>

@@ -108,3 +108,16 @@ function displayResult(result) {
         <p><strong>Net Salary: Ksh ${result.netSalary.toFixed(2)}</strong></p>
     `;
 }
+
+function clearFormData(){
+    
+    let basicSalary = parseFloat(document.getElementById('basicSalary'));
+    let benefits = parseFloat(document.getElementById('benefits'));
+    let resultDiv = document.getElementById('result');
+
+    resultDiv.innerHTML = ""
+    basicSalary = ""
+    benefits = ""
+
+}
+
