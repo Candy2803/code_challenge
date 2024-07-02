@@ -71,6 +71,8 @@ the net salary calculator page consists of a form with fields to enter the basic
 After filling the forms and clicking submit button the calculation will be displayed below the form 
 ![screenshot5](./images/Screenshot%202024-07-02%20at%2012.21.35.png)
 The button writen clear data is used to clear the calculations displayed in order to enter other details in the form for calculation
+If you happen to submit the form when it is empty there will be an error as shown
+![screenshot6](./images/Screenshot%202024-07-02%20at%2012.44.47.png)
 
 ## Requirements
 
@@ -84,7 +86,7 @@ In order to view this website you will need:
 
 If you want to get the code on your machine, here is how to do it:
 1. fork the repository on my git hub to get your own copy of it. The fork button is circled in the image below
-![screenshot6](./images/Screenshot%202024-07-02%20at%2012.27.24.png)
+![screenshot7](./images/Screenshot%202024-07-02%20at%2012.27.24.png)
 After forking the repository now you have to clone it to get the folder on your local machine
 Below shows steps to follow
 ![step1](./images/Screenshot%202024-07-02%20at%2012.31.07.png)
