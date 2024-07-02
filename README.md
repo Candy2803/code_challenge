@@ -96,4 +96,4 @@ The terminal will clone the folder to your local machine.
 3. go to the folder and open with visual studio code
 * AND THERE YOU GO YOU HAVE THE CODE IN YOUR MACHINE!!!
 
-Authored by: Candy Wawuda Mzungu.
+AUTHORED BY: Candy Wawuda Mzungu.
